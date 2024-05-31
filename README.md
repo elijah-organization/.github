@@ -1,2 +1,2 @@
 # Elijah-Organization
-owned by [Nikolai K.](github.com/sputnyq)
+owned by [Nikolai K.](https://github.com/sputnyq)
