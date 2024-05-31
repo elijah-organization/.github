@@ -1,0 +1,5 @@
+{
+  "name": "AI Code Review",
+  "Description": "ChatGPT code review running on every pull-request",
+  "iconName": "octicon hubot"
+}

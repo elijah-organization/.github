@@ -1,0 +1,5 @@
+{
+  "name": "Semantic Versioning",
+  "Description": "Generate new version using the 'semantic-version'",
+  "iconName": "octicon versions"
+}
