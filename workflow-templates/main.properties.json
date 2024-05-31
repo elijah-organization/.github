@@ -1,0 +1,5 @@
+{
+  "name": "Main Workflow",
+  "Description": "Main Workflow: build, test and lint any application",
+  "iconName": "octicon tools"
+}
