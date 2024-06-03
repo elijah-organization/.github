@@ -14,15 +14,18 @@ on:
 
 jobs:
   code-review:
+    if: github.event.pull_request.user.name != 'renovate'
     runs-on: ubuntu-latest
     permissions:
       contents: read
       pull-requests: write
     steps:
       # This step checks out a copy of your repository.
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
       # This step references the directory that contains the action.
-      - uses: sshnaidm/gpt-code-review-action@v2.0
+      - name: Review
+        uses: sshnaidm/gpt-code-review-action@v2.0
         with:
           openai-key: ${{ secrets.OPENAI_API_KEY }}
           # model: 'gpt-4'
